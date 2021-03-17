@@ -20,6 +20,10 @@
   "servers" : [ {
     "url" : "https://api.appstoreconnect.apple.com/"
   } ],
+  "schemes": [
+    "https"
+  ],
+  "host": "api.appstoreconnect.apple.com",
   "paths" : {
     "/v1/ageRatingDeclarations/{id}" : {
       "patch" : {
